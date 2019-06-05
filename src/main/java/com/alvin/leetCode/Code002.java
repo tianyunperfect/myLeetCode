@@ -8,7 +8,7 @@ package com.alvin.leetCode;
  * @Date 2019/6/3 23:19
  * @Version 1.0
  */
-public class Code002AddTwoNumbers {
+public class Code002 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode listNode1 = l1;
         ListNode listNode2 = l2;
@@ -52,7 +52,7 @@ public class Code002AddTwoNumbers {
         listNode2.addNode(new ListNode(6));
         listNode2.addNode(new ListNode(4));
 
-        ListNode listNode = new Code002AddTwoNumbers().addTwoNumbers(listNode1, listNode2);
+        ListNode listNode = new Code002().addTwoNumbers(listNode1, listNode2);
         do {
             System.out.println(listNode.val);
             listNode = listNode.next;
